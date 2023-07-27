@@ -5,7 +5,7 @@ Due to a lack of efficient measures for dealing with food waste at many levels i
 
 
 ## The Algorithm
-This project was developed on Nvidia's Jetson Nano, using a retrained resnet18 model whose dataset consists of images of fruit from Kaggle, labelled with the classifications fresh or rotten. I then divided the data into three categories: test, train, and val (validation). Over the course of 34 epochs, the model learns to recognize distinctive features of deteriorating fruit using the train and val datasets. The principle behind this AI image recognition system is neural networks, where the machine learns to identify rotten fruit based on patterns found in a large dataset of images. My algorithm uses the imagenet.py program paired with the trained model to determine whether an inputted image is fresh or rotten. 
+This project was developed on Nvidia's Jetson Nano, using a retrained resnet18 model whose dataset consists of images of fruit from Kaggle, labelled with the classifications fresh or rotten. I then divided the data into three categories: test, train, and val (validation). Over the course of 34 epochs, the model learns to recognize distinctive features of deteriorating fruit using the train and val datasets. The principle behind this AI image recognition system is neural networks, where the machine learns based on patterns found in a large dataset of images. My algorithm uses the imagenet.py program paired with the trained model to determine whether an inputted image is fresh or rotten. 
 
 ## Running this project
 1. Connect to your Jetson Nano.
